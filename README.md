@@ -1,29 +1,12 @@
-# Todo with React
+# Getting Started with Create React App
 
-This is a todo app with login page, a private page and a public page. Only logged in users can create todo. 
-
-## Getting Started
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-To get a local copy up and running, please follow the below steps. 
 
-### Prerequisites
+## Available Scripts
 
-- Node.JS
-- React
+In the project directory, you can run:
 
-### SetUp 
-- Clone the repository 
-`git@github.com:henatan99/todo-react.git`
-
-- cd to the project directory 
-`cd todo-react`
-
-- Install dependancies 
-`npm install`
-
-- And follow the App Usage instructions in the next section
-
-### `npm start`
+### `yarn start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -31,7 +14,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `npm test`
+### `yarn test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
@@ -41,31 +24,47 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### Usage
-Either run the app in local server after setting it up or just go to the live demo and sign up as a new user. Then, enjoy all the services of the app as an authorized user and take a good care of your health by tracking the essential indicators.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-<!-- ![GIF](docs/chrome-capture.gif) -->
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Authors
+### `yarn eject`
 
-👤 **Henok Mossissa**
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-- GitHub: [@henatan99](https://github.com/henatan99)
-- Twitter: [@henatan99](https://twitter.com/henatan99)
-- LinkedIn: [Henok Mossissa](https://www.linkedin.com/in/henok-mekonnen-2a251613/)
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-## :handshake: Contributing
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-Contributions, issues, and feature requests are welcome!
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Show your support
+## Learn More
 
-Give a :star:️ if you like this project!
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-## Acknowledgment 
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-- Facebook team who created creat-react-app API 
+### Code Splitting
 
-## :memo: License
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-This project is [MIT](./LICENSE) licensed.
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `yarn build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
